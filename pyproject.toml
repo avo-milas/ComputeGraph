@@ -1,0 +1,22 @@
+[build-system]
+requires = ['setuptools', 'setuptools-scm', 'wheel']
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = 'compgraph'
+authors = [
+    { name = "Alina Salimova", email = "avo_milas@mail.ru" }
+]
+
+version = '1.0.0'
+readme = 'LIB_README.md'
+requires-python = '>=3.12'
+dependencies = [
+    'click'
+]
+
+[tool.setuptools]
+packages = ["compgraph"]
+
+[project.scripts]
+#compgraph = "compgraph.cli:cli"
